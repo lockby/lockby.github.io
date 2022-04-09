@@ -172,7 +172,7 @@
        width: 100%;
        padding: 15px;
        display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+       grid-template-columns: repeat(auto-fill, minmax(100px, 250px));
        /* gap: 20px; */
        justify-content: center;
        align-content: center;
@@ -182,7 +182,7 @@
 
    @media only screen and (max-width: 600px) {
        .container>.content {
-           grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+           grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
        }
    }
 
